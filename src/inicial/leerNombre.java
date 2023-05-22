@@ -9,15 +9,6 @@ package inicial;
  *
  * @author maroc
  */
-public class Incial {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-    String nombre = "JUAN";
-    boolean bandera =false;
-        char i;
-}
-}
+class leerNombre {
     
+}
