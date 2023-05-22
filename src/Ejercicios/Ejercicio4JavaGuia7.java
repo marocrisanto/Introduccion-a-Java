@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inicial;
+package Ejercicios;
 
 import java.util.Scanner;
 
@@ -34,5 +34,8 @@ public class Ejercicio4JavaGuia7 {
         edad = leer.nextByte();
         //Mostramos el resultado
         System.out.println("Tu nombre es "+ nombre +" y tu edad es " + edad);
+        
+        // Cerramos el objeto para evitar problemas de memoria
+        leer.close();
     }   
 }

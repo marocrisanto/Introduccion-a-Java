@@ -3,8 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inicial;
-
+package Ejercicios;
+/*
+byte 0
+short 0
+int 0
+long 0
+float 0.0
+double 0.0
+boolean False
+char '\u0000'
+String Null
+Objetos Null
+*/
 /**
  *
  * @author maroc
