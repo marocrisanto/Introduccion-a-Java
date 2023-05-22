@@ -32,7 +32,7 @@ int edad = leer.next();
 
         System.out.println("Ingresa tu nombre");
         String nombre = leer.next();
-  ascascascas
+
     }
 }    
     
