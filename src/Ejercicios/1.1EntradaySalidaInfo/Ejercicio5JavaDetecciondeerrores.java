@@ -25,6 +25,7 @@ int edad = leer.next();
 */
 
     public static void main(String[] args) {
+        //Creamos el objeto Scanner para leer los datos del usuario
         Scanner leer = new Scanner(System.in);
         
         System.out.println("Ingresa tu edad");

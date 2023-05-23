@@ -29,9 +29,7 @@ public class Ejercicio5Java {
         //Solicitamos que el usuario ingrese el valor del boolean
         System.out.println("Ingresa la inicial de tu nombre");
         inicialNombre = leer.next().charAt(0);
-   
-        
-        
+  
         // Cerramos el objeto para evitar problemas de memoria
         leer.close();
     }
