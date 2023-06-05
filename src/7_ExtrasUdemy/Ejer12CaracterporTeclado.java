@@ -8,17 +8,17 @@ public class Ejer12CaracterporTeclado {
     //Creamos el objeto Scanner
     Scanner leer = new Scanner(System.in);
     //Definimos las variables
-    String caracter;
+    char letra;
         System.out.println("Ingrese un caracter");
-    caracter = leer.next();
+    letra = leer.nextLine().charAt(0);
     //Cerramos el scanner
     leer.close();
     
-        if (true) {
-            
+        if (Character.isUpperCase(letra) ) {
+            System.out.println("Esta es una letra masyucula");
         }
         else{
-            
+            System.out.println("Es una letra minuscula");
         }
     
     }

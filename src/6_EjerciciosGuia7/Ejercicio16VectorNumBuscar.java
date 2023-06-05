@@ -19,9 +19,11 @@ public class Ejercicio16VectorNumBuscar {
         System.out.println("Ingrese el numero que desea buscar en el vector");
         numBuscado = leer.nextInt();
         
-        //Llamamos a las funciones
-        int[] numeros = rellenarVector(n);
-        buscarNumero(numeros, numBuscado);
+        //Para llamar a la funcion creamos una arreglo llamada vector y a esta variable
+        //le asignamos el producto de la funcion rellenarVector
+        int[] vector = rellenarVector(n);
+       // Mandamos a llamar a la funcion y le pasamos como argumento el arreglo y la variable creada
+        buscarNumero(vector, numBuscado);
         
         //Cerramos el scanner
         leer.close();
@@ -47,9 +49,9 @@ public class Ejercicio16VectorNumBuscar {
         //Devolvemos el arreglo llamado vector
         return vector;
         }
-//-----------------------------------TERMINA--LA--FUNCION--2------------------------------------------------------------// 
+//-----------------------------------TERMINA--LA--FUNCION--1------------------------------------------------------------// 
  
-//---------------------------------------FUNCION--1----------------------------------------------------------------------//     
+//---------------------------------------FUNCION--2----------------------------------------------------------------------//     
     public static void buscarNumero(int[]vector, int numBuscado) {     
         // Función que busca un número en el vector y imprime sus posiciones si lo encuentra
         
