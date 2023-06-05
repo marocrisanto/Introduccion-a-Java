@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author maroc
  */
-public class Ejerc9tiempoEquivalente {
+public class Ejerc9TiempoEquivalente {
     public static void main (String[] args){
     /*
     Construir un programa que, dado un numero total de horas
